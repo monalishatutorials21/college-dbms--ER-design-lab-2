@@ -42,7 +42,7 @@ Dept_ID (Foreign Key references Dept_Master)
 Faculty_ID (Foreign Key references Faculty_Details)
 5.Course_Enrollment
 This table manages enrollment of students in courses.
-## Attributes:##
+## Attributes: ##
 Enrollment_ID (Primary Key)
 Student_ID (Foreign Key references Student_Details)
 Course_ID (Foreign Key references Course_Details)
